@@ -30,7 +30,7 @@ const saveTodo = (text) => {
     deleteBtn.innerHTML = '<i class="fa-solid fa-xmark"></i>';
     todo.appendChild(deleteBtn);
 
-    todo.appendChild(todo);
+    todoList.appendChild(todo);
 
 };
 
